@@ -1,7 +1,7 @@
 import uuid
 
 
-class Client:
+class ClientModel:
 
   def __init__(self, name, company, email, position, uid=None):
     self.name = name
